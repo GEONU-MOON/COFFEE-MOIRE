@@ -1,15 +1,11 @@
 .screen-header {
+  background-color: var(--moire);
+  color: aliceblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  padding-top: 40px;
-  background-color: var(--moire);
-  color: aliceblue;
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  top: 32px;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
