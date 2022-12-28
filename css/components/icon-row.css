@@ -26,7 +26,7 @@
 
 .icon-row__icon:hover {
   cursor: pointer;
-  color: black;
+  color: darkred;
 }
 
 .opacity0 {
