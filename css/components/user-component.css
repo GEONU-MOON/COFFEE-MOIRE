@@ -53,3 +53,14 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text {
+  position: relative;
+}
+.user-component__text i {
+  color: #fe5e4a;
+  position: absolute;
+  right: -20px;
+  bottom: 0px;
+  font-size: 15px;
+}
