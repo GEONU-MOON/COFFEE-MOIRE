@@ -23,6 +23,22 @@
   align-items: center;
 }
 
+.more-suggestions__icon-image-instagram {
+  width: 60px;
+  height: 60px;
+  background-color: var(--moire);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image-instagram i {
+  font-size: 32px;
+  color: white;
+}
+
 .more-suggestions__icon-image-naver {
   width: 60px;
   height: 60px;
