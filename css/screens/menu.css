@@ -34,6 +34,46 @@
 .chat__timestamp {
   background-color: #92a4b2;
   color: white;
-  padding: 15px 15px;
+  padding: 15px;
+  font-size: 14px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.message__bubble {
+  background-color: var(--moire);
+  font-size: 18px;
+  padding: 13px;
+  border-radius: 17px;
+  border-top-left-radius: 0px;
+  color: azure;
+  margin-right: 5px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 14px;
 }
