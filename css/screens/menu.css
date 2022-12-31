@@ -153,23 +153,3 @@
 .reply__column button:active {
   outline: none;
 }
-
-.menu-1 img {
-  margin-left: 20px;
-  width: 300px;
-  height: 300px;
-}
-
-.menu-2 img {
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 300px;
-  height: 300px;
-}
-
-.menu-1,
-.menu-2 {
-  position: relative;
-  display: inline;
-  align-items: center;
-}
